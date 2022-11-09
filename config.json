@@ -1,0 +1,21 @@
+{
+    "name": "Marina Rangel",
+    "job": "Web Developer",
+    "github": "mrangel97",
+    "playlists": {
+        "dailies": [
+            {
+                "title": "Titulo do video",
+                "url": "link do video",
+                "thumb": "imagem do video"
+            }
+        ],
+        "games": [
+            {
+                "title": "Titulo do video",
+                "url": "link do video",
+                "thumb": "imagem do video"
+            }
+        ]
+    }
+}
