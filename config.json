@@ -2,19 +2,20 @@
     "name": "Marina Rangel",
     "job": "Web Developer",
     "github": "mrangel97",
+    "banner": "banner.jpg",
     "playlists": {
-        "dailies": [
+        "daily": [
             {
-                "title": "Titulo do video",
-                "url": "link do video",
-                "thumb": "imagem do video"
+                "title": "COMEMOS EM 3 RESTAURANTES PRA ESCOLHER O MELHOR",
+                "url": "https://www.youtube.com/watch?v=ULB_TCtEdqM",
+                "thumb": "https://i.ytimg.com/an_webp/ULB_TCtEdqM/mqdefault_6s.webp?du=3000&sqp=COyirJsG&rs=AOn4CLDnX8j5NCHLj-8qE3aDXkeK1Q9uiA"
             }
         ],
         "games": [
             {
-                "title": "Titulo do video",
-                "url": "link do video",
-                "thumb": "imagem do video"
+                "title": "Uma TV OLED Fenomenal Para GAMES!!! | LG OLED TV C2",
+                "url": "https://www.youtube.com/watch?v=rkMVj4CPlnY&t=5s",
+                "thumb": "https://i.ytimg.com/an_webp/rkMVj4CPlnY/mqdefault_6s.webp?du=3000&sqp=CNCtrJsG&rs=AOn4CLBVFWwLd5_-gHTQLGTHsMb3QCPQRw"
             }
         ]
     }

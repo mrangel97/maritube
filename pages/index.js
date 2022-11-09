@@ -57,10 +57,23 @@ const StyledHeader = styled.div`
      }
 `;
 
+const StyledBanner = styled.div`
+  img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    width: 100%;
+    height: 450px;
+    
+  }
+`;
+
 function Header() {
     return (
         <StyledHeader>
-            {/* <img src="banner" /> */}
+            <StyledBanner>
+                <img src={config.banner} />
+            </StyledBanner>
             <section className="user-info">
                 <img src={`https://github.com/${config.github}.png`} />
                 <div>
