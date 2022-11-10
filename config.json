@@ -4,18 +4,92 @@
     "github": "mrangel97",
     "banner": "banner.jpg",
     "playlists": {
-        "daily": [
+        "vlog": [
             {
                 "title": "COMEMOS EM 3 RESTAURANTES PRA ESCOLHER O MELHOR",
                 "url": "https://www.youtube.com/watch?v=ULB_TCtEdqM",
-                "thumb": "https://i.ytimg.com/an_webp/ULB_TCtEdqM/mqdefault_6s.webp?du=3000&sqp=COyirJsG&rs=AOn4CLDnX8j5NCHLj-8qE3aDXkeK1Q9uiA"
+                "thumb": "https://img.youtube.com/vi/ULB_TCtEdqM/sddefault.jpg"
+            },
+            {
+                "title": "Um dia na vida de um programador baiano no Canadá",
+                "url": "https://www.youtube.com/watch?v=aUkklJzYOvs",
+                "thumb": "https://img.youtube.com/vi/aUkklJzYOvs/sddefault.jpg"
+            },
+            {
+                "title": "Day in the Life of a Computer Science Student | UoG",
+                "url": "https://www.youtube.com/watch?v=iURPY28jOD4&t=29s",
+                "thumb": "https://img.youtube.com/vi/iURPY28jOD4/sddefault.jpg"
+            },
+            {
+                "title": "I drove to college with a girl I just met",
+                "url": "https://www.youtube.com/watch?v=rnT39XdLugA",
+                "thumb": "https://img.youtube.com/vi/rnT39XdLugA/sddefault.jpg"
+            },
+            {
+                "title": "THE PATAGONIA FILM: An Unlikely Quest To Find Penguins",
+                "url": "https://www.youtube.com/watch?v=M-xH8xTCPuo",
+                "thumb": "https://img.youtube.com/vi/M-xH8xTCPuo/sddefault.jpg"
+            },
+            {
+                "title": "ESTIVE NA MELHOR UNIVERSIDADE DO MUNDO (HARVARD) !!! • Lorenzo Franco •",
+                "url": "https://www.youtube.com/watch?v=1EXNTdwVTJo",
+                "thumb": "https://img.youtube.com/vi/1EXNTdwVTJo/sddefault.jpg"
+            },
+            {
+                "title": "24 HORAS NA CASA DO FILME PÂNICO ( aterrorizante! )",
+                "url": "https://www.youtube.com/watch?v=AJBCMqdHZQ4",
+                "thumb": "https://img.youtube.com/vi/AJBCMqdHZQ4/sddefault.jpg"
             }
         ],
         "games": [
             {
                 "title": "Uma TV OLED Fenomenal Para GAMES!!! | LG OLED TV C2",
                 "url": "https://www.youtube.com/watch?v=rkMVj4CPlnY&t=5s",
-                "thumb": "https://i.ytimg.com/an_webp/rkMVj4CPlnY/mqdefault_6s.webp?du=3000&sqp=CNCtrJsG&rs=AOn4CLBVFWwLd5_-gHTQLGTHsMb3QCPQRw"
+                "thumb": "https://img.youtube.com/vi/rkMVj4CPlnY/sddefault.jpg"
+            },
+            {
+                "title": "ZELDA BREATH OF THE WILD - Gameplay do Início, em Português, no Nintendo Switch!",
+                "url": "https://www.youtube.com/watch?v=Cl6Bc7nZps4",
+                "thumb": "https://img.youtube.com/vi/Cl6Bc7nZps4/sddefault.jpg"
+            },
+            {
+                "title": "LEON de volta ao MARIO!!! - Super Mario Odyssey Gameplay",
+                "url": "https://www.youtube.com/watch?v=glOaZyV2vqA",
+                "thumb": "https://img.youtube.com/vi/glOaZyV2vqA/sddefault.jpg"
+            },
+            {
+                "title": "PLAYSTATION 5!",
+                "url": "https://www.youtube.com/watch?v=wWzW424wV4E",
+                "thumb": "https://img.youtube.com/vi/wWzW424wV4E/sddefault.jpg"
+            },
+            {
+                "title": "Star Wars Jedi Fallen Order - Quero meu Wookiee!!",
+                "url": "https://www.youtube.com/watch?v=wuRSD07aXLQ",
+                "thumb": "https://img.youtube.com/vi/wuRSD07aXLQ/sddefault.jpg"
+            },
+            {
+                "title": "SWITCH TUNADÃO!",
+                "url": "https://www.youtube.com/watch?v=kkFV_-iditg",
+                "thumb": "https://img.youtube.com/vi/kkFV_-iditg/sddefault.jpg"
+            },
+            {
+                "title": "Hogwarts Legacy State of Play – Gameplay Oficial 4K Dublado e Legendado",
+                "url": "https://www.youtube.com/watch?v=6gwdAdwmJB4&t=29s",
+                "thumb": "https://img.youtube.com/vi/6gwdAdwmJB4/sddefault.jpg"
+            }
+        ]
+    },
+    "favorites": {
+        "favorites": [
+            {
+                "name": "Mario Souto - Dev Soutinho",
+                "url": "https://www.youtube.com/c/DevSoutinho",
+                "img": "https://yt3.ggpht.com/m8Yrqf0Y81L4mZ1Cq7rGnJ4NDHe6729rxiFZvWyy9-xd_Z7Osmza7J8NWpN1axMHcCb1oKJNgA=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "name": "Devon Crawford",
+                "url": "https://www.youtube.com/c/DevonCrawford",
+                "img": "https://yt3.ggpht.com/ytc/AMLnZu86e2A5p9SdRkR6BoAAix4OsKydiSpPX70GLo-DrA=s88-c-k-c0x00ffffff-no-rj"
             }
         ]
     }
