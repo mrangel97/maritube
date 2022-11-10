@@ -16,6 +16,7 @@ export const StyledTimeline = styled.div`
     width: 100%;
     max-width: 210px;
     height: auto;
+    border-radius: 3%;
   }
   section {
     width: 100%;
