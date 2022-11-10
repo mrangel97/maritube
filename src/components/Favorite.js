@@ -7,7 +7,6 @@ export const StyledFavorites = styled.div`
   overflow: hidden;
   h2 {
     font-size: 16px;
-    margin-top: 260px;
     margin-bottom: 16px;
     text-transform: capitalize;
   }
@@ -22,6 +21,7 @@ export const StyledFavorites = styled.div`
   section {
     width: 100%;
     padding: 0;
+    /* margin-top: 260px; */
     overflow: hidden;
     padding: 16px;
     div {

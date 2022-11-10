@@ -19,7 +19,6 @@ function HomePage() {
                 display: "flex",
                 flexDirection: "column",
                 flex: 1,
-                // backgroundColor: "red",
             }}>
                 < Menu />
                 <Header />
@@ -58,22 +57,15 @@ const StyledHeader = styled.div`
 `;
 
 const StyledBanner = styled.div`
-  img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 0%;
-    width: 100%;
-    height: 450px;
-    
-  }
+    background-image: url(https://images.unsplash.com/photo-1618944847023-38aa001235f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-position: center;
+    height: 215px;
 `;
 
 function Header() {
     return (
         <StyledHeader>
-            <StyledBanner>
-                <img src={config.banner} />
-            </StyledBanner>
+            <StyledBanner />
             <section className="user-info">
                 <img src={`https://github.com/${config.github}.png`} />
                 <div>
@@ -90,7 +82,6 @@ function Header() {
 }
 
 function Timeline(props) {
-    // console.log("Dentro do componente",props.playlists);
     const playlistNames = Object.keys(props.playlists);
     return (
         <StyledTimeline>
