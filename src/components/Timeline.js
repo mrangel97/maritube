@@ -36,6 +36,8 @@ export const StyledTimeline = styled.div`
       a {
         scroll-snap-align: start;
         span {
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-weight: bold;
           padding-top: 8px;
           display: block;
           padding-right: 24px;
