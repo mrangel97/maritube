@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledRegisterVideo } from "./styles";
-import { createClient } from "@supabase/supabase-js"; 
+import { createClient } from "@supabase/supabase-js";
 
 // get youtube thumbnail from video url
 function getThumbnail(url) {
@@ -40,7 +40,7 @@ const supabase = createClient(PROJECT_URL, PUBLIC_KEY);
 
 export default function RegisterVideo() {
     const formCadastro = useForm({
-        initialValues: { titulo: "", url: "" }
+        initialValues: { titulo: "", url: "", categoria: ""}
     });
     const [formVisivel, setFormVisivel] = React.useState(false);
     return (
@@ -55,17 +55,17 @@ export default function RegisterVideo() {
                         // console.log(formCadastro.values);
 
                         supabase.from("video").insert({
-                              title: formCadastro.values.titulo,
-                              url: formCadastro.values.url,
-                              thumb: getThumbnail(formCadastro.values.url),
-                              playlist: "games",   
+                            title: formCadastro.values.titulo,
+                            url: formCadastro.values.url,
+                            thumb: getThumbnail(formCadastro.values.url),
+                            playlist: formCadastro.values.categoria,
                         })
-                        .then((oqueveio) => {
-                            console.log(oqueveio);
-                        })
-                        .catch((err) => {
-                            console.log(err);
-                        })
+                            .then((oqueveio) => {
+                                console.log(oqueveio);
+                            })
+                            .catch((err) => {
+                                console.log(err);
+                            })
 
                         setFormVisivel(false);
                         formCadastro.clearForm();
@@ -82,6 +82,11 @@ export default function RegisterVideo() {
                             <input placeholder="URL do vídeo"
                                 name="url"
                                 value={formCadastro.values.url}
+                                onChange={formCadastro.handleChange}
+                            />
+                            <input placeholder="Categoria"
+                                name="categoria"
+                                value={formCadastro.values.categoria}
                                 onChange={formCadastro.handleChange}
                             />
                             <button type="submit">
